@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Support;
+namespace XEngine\Support;
 
 use Countable;
 use JsonSerializable;
@@ -256,7 +256,7 @@ class MessageBag implements Arrayable, Countable, Jsonable, JsonSerializable, Me
     /**
      * Get the messages for the instance.
      *
-     * @return \Illuminate\Support\MessageBag
+     * @return \XEngine\Support\MessageBag
      */
     public function getMessageBag()
     {
@@ -277,7 +277,7 @@ class MessageBag implements Arrayable, Countable, Jsonable, JsonSerializable, Me
      * Set the default message format.
      *
      * @param  string  $format
-     * @return \Illuminate\Support\MessageBag
+     * @return \XEngine\Support\MessageBag
      */
     public function setFormat($format = ':message')
     {

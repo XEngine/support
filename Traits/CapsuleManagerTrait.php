@@ -1,8 +1,8 @@
 <?php
 
-namespace Illuminate\Support\Traits;
+namespace XEngine\Support\Traits;
 
-use Illuminate\Support\Fluent;
+use XEngine\Support\Fluent;
 use Illuminate\Contracts\Container\Container;
 
 trait CapsuleManagerTrait

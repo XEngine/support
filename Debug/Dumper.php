@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Support\Debug;
+namespace XEngine\Support\Debug;
 
 use Symfony\Component\VarDumper\Dumper\CliDumper;
 use Symfony\Component\VarDumper\Cloner\VarCloner;
@@ -17,8 +17,9 @@ class Dumper
     {
         if (class_exists(CliDumper::class)) {
             $dumper = 'cli' === PHP_SAPI ? new CliDumper : new HtmlDumper;
-
-            $dumper->dump((new VarCloner)->cloneVar($value));
+            $cloner = new VarCloner();
+            $cloner->setMaxItems(999999);
+            $dumper->dump($cloner->cloneVar($value));
         } else {
             var_dump($value);
         }

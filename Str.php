@@ -1,8 +1,8 @@
 <?php
 
-namespace Illuminate\Support;
+namespace XEngine\Support;
 
-use Illuminate\Support\Traits\Macroable;
+use XEngine\Support\Traits\Macroable;
 
 class Str
 {

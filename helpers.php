@@ -1,9 +1,9 @@
 <?php
 
-use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Debug\Dumper;
+use XEngine\Support\Arr;
+use XEngine\Support\Str;
+use XEngine\Support\Collection;
+use XEngine\Support\Debug\Dumper;
 use Illuminate\Contracts\Support\Htmlable;
 
 if (! function_exists('append_config')) {
@@ -354,7 +354,7 @@ if (! function_exists('collect')) {
      * Create a collection from the given value.
      *
      * @param  mixed  $value
-     * @return \Illuminate\Support\Collection
+     * @return \XEngine\Support\Collection
      */
     function collect($value = null)
     {

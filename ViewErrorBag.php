@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Support;
+namespace XEngine\Support;
 
 use Countable;
 use Illuminate\Contracts\Support\MessageBag as MessageBagContract;

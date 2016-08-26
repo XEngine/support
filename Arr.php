@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Support;
+namespace XEngine\Support;
 
 use ArrayAccess;
-use Illuminate\Support\Traits\Macroable;
+use XEngine\Support\Traits\Macroable;
 
 class Arr
 {
