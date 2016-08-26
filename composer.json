@@ -1,18 +1,7 @@
 {
     "name": "xengine/support",
-    "description": "The Illuminate Support package.",
+    "description": "The Illuminate Support package. Refactor for usage in Optimum7 Turkey Office",
     "license": "MIT",
-    "homepage": "https://laravel.com",
-    "support": {
-        "issues": "https://github.com/laravel/framework/issues",
-        "source": "https://github.com/laravel/framework"
-    },
-    "authors": [
-        {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
-        }
-    ],
     "require": {
         "php": ">=5.6.4",
         "ext-mbstring": "*",
